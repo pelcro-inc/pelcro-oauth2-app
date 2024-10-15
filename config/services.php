@@ -35,4 +35,12 @@ return [
         ],
     ],
 
+    'pelcro' => [
+        'client_id' => env('PELCRO_CLIENT_ID'),
+        'client_secret' => env('PELCRO_CLIENT_SECRET'),
+        'redirect_uri' => env('PELCRO_REDIRECT_URI'),
+        'base_url' => env('PELCRO_BASE_URL'),
+
+    ],
+
 ];
